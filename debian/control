@@ -1,0 +1,14 @@
+Source: libmodule-build-pm-filter-perl
+Section: perl
+Priority: extra
+Maintainer: Victor Moral <victor@taquiones.net>
+Build-Depends: debhelper (>= 5.0.0), libmodule-build-perl
+Standards-Version: 3.7.2
+
+Package: libmodule-build-pm-filter-perl
+Architecture: any
+Depends: perl, libmodule-build-perl
+Description: Add a PM source filter to Module::Build
+ This module add support for source code filter to Module::Build. It derive
+ from the Module::Build class and overload several methods from it.
+ .

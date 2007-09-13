@@ -1,0 +1,67 @@
+libmodule-build-pm-filter-perl (0.9.1) unstable; urgency=low
+
+  * Fixed a bug in the t/module-build-pm-filter.t script. The test failed if
+    the distribution doesn't contain a pm_filter file with execution
+    permissions. 
+
+ -- Victor Moral <victor@taquiones.net>  Thu, 13 Sep 2007 09:39:49 +0200
+
+libmodule-build-pm-filter-perl (0.9) unstable; urgency=low
+
+  * Add support for the debian/rules file in the distdir action.
+  * Completed the main test.
+  * Minor changes in the code structure.
+
+ -- Victor Moral <victor@taquiones.net>  Wed, 12 Sep 2007 12:15:08 +0200
+
+libmodule-build-pm-filter-perl (0.8) unstable; urgency=low
+
+  * Fixed an stupid bug with the pm_filter file
+
+ -- Victor Moral <victor@taquiones.net>  Mon, 10 Sep 2007 11:32:30 +0200
+
+libmodule-build-pm-filter-perl (0.7) unstable; urgency=low
+
+  * Add support to pm_filter with the distdir action.
+  * Minor corrections in the filter permissions.
+  * Add a examples directory.
+
+ -- Victor Moral <victor@taquiones.net>  Thu, 06 Sep 2007 09:49:30 +0200
+
+libmodule-build-pm-filter-perl (0.6) unstable; urgency=low
+
+  * Several bugs fixed in the package files.
+
+ -- Victor Moral <victor@taquiones.net>  Mon, 29 Jan 2007 15:59:44 +0100
+
+libmodule-build-pm-filter-perl (0.5) unstable; urgency=low
+
+  * Release the first public version, with minor changes in documentation
+
+ -- Victor Moral <victor@taquiones.net>  Mon, 29 Jan 2007 15:59:23 +0100
+
+libmodule-build-pm-filter-perl (0.4) unstable; urgency=low
+
+  * Now process the package script files.
+
+ -- Victor Moral <victor@taquiones.net>  Sat, 27 Jan 2007 08:49:55 +0100
+
+libmodule-build-pm-filter-perl (0.3) unstable; urgency=low
+
+  * The module croak when fail the execution of pm_filter.
+  * Search the pm_filter only in the current directory.
+
+ -- Victor Moral <victor@taquiones.net>  Fri, 26 Jan 2007 22:21:17 +0100
+
+libmodule-build-pm-filter-perl (0.2) unstable; urgency=low
+
+  * Now checking for executable permissions on pm_filter
+
+ -- Victor Moral <victor@taquiones.net>  Fri, 26 Jan 2007 22:16:21 +0100
+
+libmodule-build-pm-filter-perl (0.1) unstable; urgency=low
+
+  * Initial release 
+
+ -- Victor Moral <victor@taquiones.net>  Fri, 26 Jan 2007 18:54:54 +0100
+

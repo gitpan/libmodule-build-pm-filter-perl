@@ -1,0 +1,15 @@
+---
+name: Module-Build-PM_Filter
+version: 0.9.1
+author:
+  - 'Victor Moral <victor@taquiones.net>'
+abstract: Add a PM_Filter feature to Module::Build
+license: gpl
+requires:
+  Module::Build: 0
+  Test::More: 0
+provides:
+  Module::Build::PM_Filter:
+    file: lib/Module/Build/PM_Filter.pm
+    version: 0.9.1
+generated_by: Module::Build version 0.26
