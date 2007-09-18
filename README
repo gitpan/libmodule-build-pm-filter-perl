@@ -2,14 +2,17 @@ Module-Build-PM_Filter
 
 DESCRIPTION 
 
-This module provides a Module::Build compatible class and adds a filter for pm
-files. The filter could be used to replace Perl source from development
-environment to production.
+This module provides a Module::Build compatible class and adds a filter for
+.pm, .pl and script files. The filter could be used to replace Perl source
+from development environment to production, or to remove debug sentences.
 
 In the debug phase we can play with the application and modules without
 mattering to us where the library are; when we build the package for
 distribution, the modules and the scripts will contain the correct path in the
 final location.
+
+In addition the module makes sure that the archives pm_filter and debian/rules
+are copied in the distribution directory with the suitable permissions.
 
 SYNOPSIS
 

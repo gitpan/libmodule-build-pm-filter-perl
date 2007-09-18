@@ -1,6 +1,6 @@
 ---
 name: Module-Build-PM_Filter
-version: 0.9.1
+version: 0.9.2
 author:
   - 'Victor Moral <victor@taquiones.net>'
 abstract: Add a PM_Filter feature to Module::Build
@@ -11,5 +11,5 @@ requires:
 provides:
   Module::Build::PM_Filter:
     file: lib/Module/Build/PM_Filter.pm
-    version: 0.9.1
+    version: 0.9.2
 generated_by: Module::Build version 0.26
